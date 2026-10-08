@@ -1,0 +1,13 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# IDE
+.vs/
+.idea/
+*.userprefs
+
+# Never ignore Unity meta files (needed for GUID stability)
+!*.meta
