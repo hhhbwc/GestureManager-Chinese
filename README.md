@@ -41,14 +41,6 @@
    `Packages/vrchat.blackstartx.gesture-manager/Scripts/`；
 3. 回到 Unity 等待编译完成。
 
-### 方式三：一键安装脚本（前两种都失效时）
-
-1. 解压 zip，把 `_一键安装脚本/GmChsInstaller.cs` 复制到工程的 `Assets/Editor/` 下（没有就新建）；
-2. 等待 Unity 编译，顶部菜单会出现
-   **Tools → Gesture Manager 汉化 → 安装汉化（选择 Scripts 文件夹）**；
-3. 选择解压出的 `Scripts` 文件夹，脚本会自动定位插件位置、先把原文件备份到工程外，再完成覆盖。
-   同一菜单下还有「还原英文」和「当前插件位置」。
-
 ### ⚠️ 关于 VPM / VCC / ALCOM 的「还原」
 
 VPM 在下次 **Resolve / 更新** 时，可能会用官方原版把 `Packages/` 里的文件覆盖回英文。
@@ -88,8 +80,6 @@ GestureManager-Chinese/
 ├── Scripts/                 ★ 汉化后的源码（镜像上游 Scripts 结构，可直接覆盖）
 ├── tools/
 │   └── translations.py      316 条「英文 → 中文」翻译记录，透明可查
-├── _一键安装脚本/
-│   └── GmChsInstaller.cs    Unity 一键安装 / 还原脚本
 └── _英文原版备份/
     └── Scripts/             上游 3.9.9 英文原版，用于还原
 ```
@@ -111,6 +101,6 @@ GestureManager-Chinese/
 
 This is an **unofficial** Simplified-Chinese UI translation for **Gesture Manager v3.9.9** (a VRChat Unity editor tool by BlackStartx). It only replaces editor UI strings with Chinese — **no logic is changed, and no avatar is required** to see the translation: as soon as the tool opens in Unity, its interface is in Chinese.
 
-Install via the `GestureManager-CHS-3.9.9.unitypackage` (Unity menu **Assets → Import Package → Custom Package**), or by overwriting the `Scripts/` folder into `Packages/vrchat.blackstartx.gesture-manager/Scripts/`. A one-click installer script and the original English sources are also included for restore.
+Install via the `GestureManager-CHS-3.9.9.unitypackage` (Unity menu **Assets → Import Package → Custom Package**), or by overwriting the `Scripts/` folder into `Packages/vrchat.blackstartx.gesture-manager/Scripts/`. The original English sources are also included for restore.
 
 Distributed under the **MIT license**, same as upstream.
